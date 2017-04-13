@@ -1,14 +1,14 @@
-# TTH ... - P.. - ...
+# TTH Frontend - P02 - Responsive Layout
 
 ## Introduction
 
-This is the ... of the ... . The complete instruction of the project can be seen in [project_instructions.pdf](https://github.com/wahidyankf/.../blob/master/project_instructions.pdf), and the initial code and assets can be seen in the `initial_assets` folder.
+This is the second of the Team Treehouse Techdegree. The complete instruction of the project can be seen in [project_instructions.pdf](https://github.com/wahidyankf/treehouse-frontend-02-responsive-layout/blob/master/project_instructions.pdf), and the initial code and assets can be seen in the `initial_assets` folder.
 
 ## Usage
 
 ### Demo pages
 
-You can see the demo page [here](https://wahidyankf.github.io/.../).
+You can see the demo page [here](https://wahidyankf.github.io/treehouse-frontend-02-responsive-layout).
 
 ### Result
 
@@ -24,7 +24,11 @@ This app was tested using [HTML](https://validator.w3.org/) and [CSS](https://ji
 
 ## Sreenshots
 
-![screenshot 1](screenshots/p01.jpg)
+![large display](screenshots/large.jpg)
+
+![medium display](screenshots/medium.jpg)
+
+![small display](screenshots/small.jpg)
 
 ## License
 
