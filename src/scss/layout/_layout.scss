@@ -78,14 +78,12 @@
 }
 .skill-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-bottom: 3.5em;
-    @media(min-width: $break-medium){
-        justify-content: center;
-    }
     .skill-item {
         padding: 0.75em;
         border-radius: 10px;
+        margin: 0.25em;
         @media(min-width: $break-medium){
             margin: 0.35em;
         }
@@ -124,6 +122,16 @@
 }
 
 // footer
+#contact{
+    margin: auto;
+    @media(min-width: $break-medium){
+        width: 65%;
+    }
+    @media(min-width: $break-large){
+        width: 45%;
+    }
+}
+
 .footer-title {
     font-size: 1.1em;
     margin-top: 1.5em;

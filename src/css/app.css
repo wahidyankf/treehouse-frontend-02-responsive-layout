@@ -510,17 +510,14 @@ hr {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-bottom: 3.5em; }
-  @media (min-width: 768px) {
-    .skill-container {
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center; } }
   .skill-container .skill-item {
     padding: 0.75em;
-    border-radius: 10px; }
+    border-radius: 10px;
+    margin: 0.25em; }
     @media (min-width: 768px) {
       .skill-container .skill-item {
         margin: 0.35em; } }
@@ -560,6 +557,15 @@ hr {
     @media (min-width: 1024px) {
       .portfolio-container .portfolio-item {
         width: 31%; } }
+
+#contact {
+  margin: auto; }
+  @media (min-width: 768px) {
+    #contact {
+      width: 65%; } }
+  @media (min-width: 1024px) {
+    #contact {
+      width: 45%; } }
 
 .footer-title {
   font-size: 1.1em;
