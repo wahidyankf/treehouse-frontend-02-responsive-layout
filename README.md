@@ -24,11 +24,11 @@ This app was tested using [HTML](https://validator.w3.org/) and [CSS](https://ji
 
 ## Sreenshots
 
-![large display](screenshots/large.jpg)
+![large display](screenshots/large.png)
 
-![medium display](screenshots/medium.jpg)
+![medium display](screenshots/medium.png)
 
-![small display](screenshots/small.jpg)
+![small display](screenshots/small.png)
 
 ## License
 
