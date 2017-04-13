@@ -24,10 +24,13 @@ This app was tested using [HTML](https://validator.w3.org/) and [CSS](https://ji
 
 ## Sreenshots
 
+### Large-Size Display (> 1024 pixels)
 ![large display](screenshots/large.png)
 
+### Medium-Size Display (Between 768 and 1024 pixels)
 ![medium display](screenshots/medium.png)
 
+### Small-Size Display (Less than 768 pixels)
 ![small display](screenshots/small.png)
 
 ## License
