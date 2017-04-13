@@ -1,7 +1,7 @@
 {
-  "name": "web_template",
+  "name": "thfe-01-responsive-layout",
   "version": "1.0.0",
-  "description": "web template",
+  "description": "thfe-01-responsive-layout",
   "main": "gulpfile.js",
   "dependencies": {},
   "devDependencies": {
@@ -23,6 +23,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "wahidyankf",
   "license": "MIT"
 }
