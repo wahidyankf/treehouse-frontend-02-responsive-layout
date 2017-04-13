@@ -1,0 +1,73 @@
+.header-title {
+    color: $header-title-color;
+    line-height: 1.25em;
+}
+
+.header-nav-item {
+    background-color: $header-nav-bgcolor;
+    @media(min-width: $break-medium) {
+        background-color: $body-background-color;
+    }
+}
+
+.profile-desc {
+    color: $header-profile-color;
+    font-size: 0.9em;
+    @media(min-width: $break-medium) {
+        font-size: 1em;
+    }
+    @media(min-width: $break-large) {
+        font-size: 1.3em;
+    }
+}
+
+.portfolio-title,
+.skill-title {
+    color: $portfolio-title-color;
+}
+
+.portfolio-name,
+.skill-item {
+    color: $portfolio-name-color;
+    font-weight: 400;
+}
+
+.skill-item {
+    &:nth-child(odd) {
+        background-color: $skill-odd-bgcolor;
+        color: white;
+    }
+    &:nth-child(even) {
+        background-color: $skill-even-bgcolor;
+        color: white;
+    }
+}
+
+.portfolio-desc {
+    color: $portfolio-desc-color;
+}
+
+.footer-title {
+    color: $footer-title-color;
+}
+
+.footer-paragraph {
+    color: $footer-paragraph-color;
+}
+
+.footer-nav-item {
+    color: $footer-nav-color;
+}
+
+#contact {
+    font-size: 1.05em;
+}
+
+.contact-detail {
+    color: $contact-detail-color;
+    font-weight: 700;
+}
+
+.secondary-nav {
+    font-weight: 700;
+}

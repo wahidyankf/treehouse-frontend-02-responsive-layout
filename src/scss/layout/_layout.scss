@@ -1,0 +1,161 @@
+.small-hidden {
+    display: none;
+    @media (min-width: $break-medium) {
+        display: inline-block;
+    }
+}
+
+.medium-hidden {
+    @media (min-width: $break-medium) {
+        display: none;
+    }
+}
+
+.top-header {
+    display: flex;
+    flex-direction: column;
+    .header-title {
+        margin-bottom: 1em;
+    }
+    ul{
+        @media(min-width: $break-medium){
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .header-nav-item {
+        margin: 0.3em;
+        padding: 0.5em;
+    }
+    @media(min-width: $break-large){
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+#profile {
+    padding-top: 1.5em;
+    margin-top: 1em;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3em;
+    .profile-image-wrapper {
+        .profile-image {
+            width: 75%;
+            @media(min-width: $break-medium) {
+                width: 100%;
+            }
+        }
+        @media(min-width: $break-medium) {
+            width: 40%;
+        }
+    }
+    .profile-desc {
+        @media(min-width: $break-medium) {
+            text-align: left;
+            width: 50%;
+        }
+        @media(min-width: $break-large) {
+            line-height: 1.5em;
+        }
+    }
+    @media(min-width: $break-medium) {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    @media(min-width: $break-large) {
+    }
+}
+
+//main
+
+.skill-title{
+    margin-bottom: 1.5em;
+}
+.skill-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3.5em;
+    @media(min-width: $break-medium){
+        justify-content: center;
+    }
+    .skill-item {
+        padding: 0.75em;
+        border-radius: 10px;
+        @media(min-width: $break-medium){
+            margin: 0.35em;
+        }
+    }
+}
+
+.portfolio-title {
+    margin-bottom: 2em;
+}
+
+.portfolio-image {
+    max-width: 100%;
+}
+
+.portfolio-item {
+    padding-top: 1em;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+    @media(min-width: $break-medium){
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .portfolio-item {
+        width: 100%;
+        @media(min-width: $break-medium){
+            width: 48%;
+        }
+        @media(min-width: $break-large){
+            width: 31%;
+        }
+    }
+}
+
+// footer
+.footer-title {
+    font-size: 1.1em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    font-weight: bold;
+}
+
+.contact-wrapper {
+    margin-top: 1.75em;
+    margin-bottom: 3em;
+    @media(min-width: $break-medium){
+        margin-top: 2em;
+        margin-bottom: 3.5em;
+    }
+}
+
+.secondary-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-nav-left {
+    text-align: left;
+}
+
+.footer-nav-right {
+    text-align: right;
+    display: flex;
+    .footer-nav-item {
+        @media (min-width: $break-medium) {
+            margin-left: 1em;
+        }
+    }
+}
