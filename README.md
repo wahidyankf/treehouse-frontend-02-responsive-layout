@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is the second of the Team Treehouse Techdegree. The complete instruction of the project can be seen in [project_instructions.pdf](https://github.com/wahidyankf/treehouse-frontend-02-responsive-layout/blob/master/project_instructions.pdf), and the initial code and assets can be seen in the `initial_assets` folder.
+This is the second project of the Team Treehouse Frontend Web Development Techdegree. The complete instruction of the project can be seen in [project_instructions.pdf](https://github.com/wahidyankf/treehouse-frontend-02-responsive-layout/blob/master/project_instructions.pdf), and the initial code and assets can be seen in the `initial_assets` folder.
 
 ## Usage
 
